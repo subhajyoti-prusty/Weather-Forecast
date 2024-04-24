@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section class="main">
+        <section class="inputs">
+          <input
+            type="text"
+            placeholder="Enter Your City Name..."
+            id="cityInput"
+          />
+          <input type="submit" value="Submit" id="submitBtn" />
+        </section>
+        <section class="display">
+          <div class="wrapper">
+            <h2 id="cityOutput"></h2>
+            <p id="description"></p>
+            <p id="temperature"></p>
+            <p id="wind"></p>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Weather App. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

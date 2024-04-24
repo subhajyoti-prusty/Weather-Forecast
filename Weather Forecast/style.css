@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    background: url("bg2.jpg") no-repeat center center/cover,
+      url("bg1.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+  }
+  .container {
+    width: 600px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .inputs {
+    padding: 2rem 0;
+  }
+  .inputs input[type="text"] {
+    height: 4rem;
+    width: 70%;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #473939;
+    border-radius: 3px;
+    margin-right: 4px;
+    color: #fff;
+  }
+  .inputs input[type="submit"] {
+    height: 3rem;
+    width: 30%;
+    background: #270aca;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .display {
+    margin-top: 20px;
+  }
+  .wrapper {
+    background: rgba(5, 72, 181, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .wrapper h2 {
+    padding: 10px 0;
+    background: #0548b5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .wrapper p {
+    margin: 10px 0;
+    color: #04214c;
+    font-size: 1.2rem;
+  }
+  .wrapper span {
+    color: #9481b8;
+    font-weight: bold;
+  }
+  header {
+    z-index: 1000;
+    background: #003366;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #003366;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
